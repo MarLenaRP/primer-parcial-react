@@ -1,12 +1,13 @@
 
-import Card from './Componentes/Card';
+import './App.css';
+import { animales } from './utils/animales.js';
+import Form from './Componentes/Form';
 
 function App() {
   return (
-    <div className= 'App'>
-      <h1> Carga de estudiantes </h1>
-      <form></form>
-      <Card/>
+    <div>
+      <h1>Formulario de Animales</h1>
+      <Form />
     </div>
   );
 }
